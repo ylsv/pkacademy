@@ -1,0 +1,50 @@
+/* General styles */
+@font-face {
+  font-family: 'Days';
+  src: url('../fonts/days.ttf');
+}
+
+body {
+  background-image: url('../img/bg.jpg');
+  background-size: cover;
+  background-repeat: repeat-y;
+  font-family: 'Days', sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  background: #f1f1f1;
+  height: 61px;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: 900;
+}
+
+.nav-item {
+  text-align: center;
+  padding-right: 1.3rem;
+}
+
+.navbar__logo {
+  margin-left: 33px;
+}
+
+.navbar__rollin {
+  max-width: 200px;
+  background: #812727;
+  height: 61px; 
+  padding: 2px 1px 0px;
+  margin-right: 0;
+  font-weight: 600;
+}
+
+/* Carousel */
+.bd-example, #carouselExampleCaptions, .carousel-inner, .carousel-item {
+  height: 350px;
+}
+
+.carousel-item img {
+  height: 350px;
+  object-fit: cover;
+}
+
